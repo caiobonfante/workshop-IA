@@ -1,0 +1,33 @@
+Siga as intruções abaixo para completar a sua tarefa:
+
+===
+INSTRUÇÕES
+
+Foi fornecido para você um arquivo .csv que é um dataset contendo perguntas e respostas de suporte ao cliente para treinamento de modelos de IA.
+Este dataset tem 2 colunas: ```query``` e ```response```, contendo as perguntas e respostas respectivamente. 
+
+A sua tarefa é gerar um novo dataset no formato ```JSONL``` que possa ser utilizado para fine-tuning do modelo
+chatGPT-3.5-turbo, portanto cada exemplo deste dataset deve seguir o formato: 
+
+"messages": [ 
+    {"role": "system", "content": "You are a customer support assistant. You are helpful and kind."}, 
+    {"role": "user", "content": <query>}, 
+    {"role": "assistant", "content": <response>}, 
+]
+
+Mas não é só isso, você também deve traduzir todos as perguntas <query> e respostas <response>. Portanto o arquivo final gerado deve ser com os exemplos traduzidos para português, conforme o exemplo a seguir: 
+
+"messages": [ 
+    {"role": "system", "content": "Você é um assistente de suporte. Você é prestativo e gentil."}, 
+    {"role": "user", "content": <pergunta em pt-BR>}, 
+    {"role": "assistant", "content": <resposta em pt-BR}, 
+]
+===
+
+Para o cumprimento da tarefa, você realizara as instruções mencionadas acima sempre em 2 etapas descritas a seguir:
+
+Etapa 1: Traduzir os exemplos fornecidos no arquivo. Faça o processo de tradução em lotes de 5 exemplos. Após traduzir o lote, vá para a etapa 2 e vá repetindo o processo até finalizar todos os exemplos. 
+
+Detalhe importante: para as traduções você não deve utilizar ferramentas e código, deve utilizar apenas a base de conhecimento que você foi treinada.
+
+Etapa 2: Após traduzir o lote de exemplos da etapa 1, gere um arquivo jsonl gere os exemplos. Se um arquivo já tiver sido criado, vá "apendando" os exemplos no final do arquivo. Repita o processo até finalizar todos os exemplos.

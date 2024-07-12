@@ -1,0 +1,29 @@
+Faça as análises descritas abaixo:
+
+---
+Análise 1 - Análise de Vendas por Categoria de Produto: identificar quais categorias de produtos têm maior volume de vendas e análise de rentabilidade por categoria. Traga apenas as top 5 categorias. 
+---
+
+---
+Análise 2 - Comportamento de Compras dos Clientes: analisar o comportamento de compra de clientes com base na frequência de compras, valores gastos e tipos de produtos comprados. Também deve analisar clientes recorrentes versus novos clientes.
+---
+
+---
+Análise 3 - Desempenho de Vendas ao Longo do Tempo: Identificar tendências sazonais ou mensais nas vendas e analisar os picos de vendas e períodos de baixa.
+---
+
+---
+Análise 4 - Análise de pagamentos: distribuição dos tipos de pagamento utilizados (cartão de crédito, boleto, etc.).
+---
+
+---
+Análise 5 - Análise Geográfica: Identificar regiões ou cidades que geram mais vendas e análise do comportamento de compra por região.
+---
+
+---
+Análise 6 - Desempenho de Produtos: Análise dos produtos mais vendidos e menos vendidos.
+---
+
+---
+Análise 7 - Análise de Logística: Tempo médio de entrega dos pedidos e análise de pedidos atrasados e seu impacto no comportamento do cliente.
+---

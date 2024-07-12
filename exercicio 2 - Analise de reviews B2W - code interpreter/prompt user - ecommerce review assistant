@@ -1,0 +1,31 @@
+Faça as seguintes análises descritas abaixo:
+
+---
+Análise 1 - Analisar a Distribuição das Avaliações (Overall Rating): Obter a contagem e distribuição das avaliações de diferentes notas para entender a qualidade geral dos produtos.
+---
+
+---
+Análise 2 - Calcular a Pontuação Média por Produto: Determinar quais produtos têm melhores e piores pontuações médias.
+5 produtos com as maiores pontuações e 5 produtos com as piores pontuações. 
+---
+
+---
+Análise 3 - Análise de Sentimento dos Textos das Avaliações: Realizar uma análise de sentimento básica das avaliações textuais.
+A classificação dos sentimentos deve ser entre ```negativo - neutro - positivo```.
+
+Exemplos: 
+
+Avaliação positiva: ```Estou encantada com o liquidificador DEF Turbo! Este aparelho superou todas as minhas expectativas. A potência é impressionante, triturando gelo e frutas duras em segundos. O jarro de vidro é resistente e fácil de limpar. Adorei as múltiplas velocidades e a função pulsar, que me permitem ter controle total sobre o preparo.```
+
+Avaliação neutra: ```O fogão ABC 4 bocas é um produto mediano. Ele cumpre sua função básica de cozinhar, mas não tem nada de extraordinário. Os queimadores aquecem de forma uniforme e o forno funciona adequadamente. O design é simples e comum. A limpeza não é difícil, mas também não é tão fácil quanto alguns modelos mais modernos.````
+
+Avaliação negativa: ```Comprei a Smart TV XYZ 55" e estou extremamente decepcionado. A qualidade da imagem é muito inferior ao que foi anunciado, com cores desbotadas e contraste fraco. O som é abafado e precisa de alto volume para ser audível.````
+---
+
+---
+Análise 4 - Analisar as Categorias dos Produtos: Quais categorias de produtos têm melhores avaliações?
+---
+
+---
+Análise 5 - Recomendações dos Usuários: Quantos usuários recomendariam o produto para um amigo.
+---
