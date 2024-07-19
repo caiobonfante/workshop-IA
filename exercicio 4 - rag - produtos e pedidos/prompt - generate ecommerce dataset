@@ -8,4 +8,4 @@ O dataset 2 deve conter uma base de pedidos contendo os seguintes campos:
 
 <número do pedido>, <sku do produto>, <quantidade>, <preço>, <data do pedido>, <status do pedido (preparando para envio, enviado, entregue)>
 
-Cada dateset deve conter no minímo 100 registros com todos em campos em português do Brasil (pt-BR).
+Cada dateset deve conter 20 registros com todos em campos em português do Brasil (pt-BR).
