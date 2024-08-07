@@ -8,10 +8,10 @@ Gere um dataset no formato <jsonl> seguindo o mesmo formato e estilo do exemplo 
   
   Faça essa tarefa em etapas: 
   
-  1 - Gere os primeiros 5 exemplos 
-  2 - Crie o arquivo jsonl com os 5 exemplos 
-  3 - Gere mais 5 exemplos (sempre lembre de gerar exemplos diferentes dos que já foram gerados anteriormente)
-  4 - Atualize o arquivo adicionando os 5 novos exemplos 
+  1 - Gere os primeiros 10 exemplos 
+  2 - Crie o arquivo jsonl com os 10 exemplos 
+  3 - Gere mais 10 exemplos (sempre lembre de gerar exemplos diferentes dos que já foram gerados anteriormente)
+  4 - Atualize o arquivo adicionando os 10 novos exemplos 
   5 - Confira quanto exemplos já foram gerados
   6 - Caso já tenham sido gerados 100 exemplos diferentes, gere o link de download do arquivo e finalize. Caso ainda não tenha 100 exemplos, volte ao passo 3. 
   
