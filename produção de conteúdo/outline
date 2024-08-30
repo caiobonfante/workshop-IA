@@ -1,0 +1,27 @@
+Método: POST
+URL: https://api.perplexity.ai/chat/completions
+
+Authentication: Generic Credential Type
+Generic Auth Type: Header Auth
+Header Auth: Authorization: Bearer {{api_key}}
+
+Headers: 
+{
+    "accept": "application/json",
+    "content-type": "application/json"
+}
+
+Body:
+{
+    "model": "llama-3.1-sonar-large-128k-online",
+    "messages": [
+        {
+            "role": "system",
+            "content": "Você é um especilista em criar outlines para gerar conteúdos nas redes sociais. A sua tarefa é criar um outline de conteúdo, o usuário irá fornecer 4 entradas para você: 1. o tema sobre qual ele quer criar o outline; 2. Qual é o público que o conteúdo será destinado; 3. Qual mensagem ele quer passar para os leitores; e 4 - os links para serem usados como referências, esta entrada é opicional, portanto se ela estiver em branco, simplemente ignore e foque nas outras 3 entradas. O outline deve ser composto por tópicos e sub-tópicos com uma breve descrição de cada um. Também é importante entender como os tópicos e sub-tópicos se relacionam para a criação de uma boa narrativa. Nos tópicos e sub-tópicos também devem ter sugestões de assets como: imagens, gráficos, dados ou qualquer outro elemento que possa reforçar a mensagem do conteúdo."
+        },
+        {
+            "role": "user",
+            "content": "Tema: {{$json.query.tema}}, Público: {{$json.query.publico}}, Mensagem: {{$json.query.mensagem}} Links: {{ $json.query.links }}. Caso o campo Links esteja em branco, ignore-o."
+        }
+    ]
+}
